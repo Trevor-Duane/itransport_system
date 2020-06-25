@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.header{
+	width: 100%;
+	height: 100vh;
+	/*background-image: url(../images/cover.png);*/
+	background-size: 10% 30%;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: .6;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 100px;
+}
+.navbar{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px 0;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+.logo{
+	width: 320px;
+	cursor: pointer;
+}
+.icon{
+	width: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 30px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #150c4a;
+	font-size: 13px;
+	padding: 5px 2px;
+}
+nav ul li a:hover{
+	border-bottom: 1px solid #150c4a;
+}
+#horizontal{
+	margin-top: -10px;
+}
+.content{
+	max-width: 600px;
+	color: #0E0736;
+	margin-top: 0;
+}
+h1{
+	font-size: 28px;
+	line-height: 70px;
+	letter-spacing: 1px;
+	margin: 2px 0;
+}
+p{
+	font-size: 12px;
+	line-height: 22px;
+}
+.sidebar{
+	width: 80px;
+	height: 100vh;
+	background: #150c4a;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.sidebar h3{
+	color: #fff;
+	text-align: center;
+	margin-top: 5px;
+	padding: 2px;
+}
+.social-links{
+	width: 80px;
+	position: absolute;
+	bottom: 20px;
+}
+.social-links img{
+	height: 15px;
+	display: block;
+	margin: 25px auto;
+	cursor: pointer;
+}
